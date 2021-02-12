@@ -84,6 +84,7 @@ const Modal = ({ profile, userId }) => {
                     aria-describedby="idHelpBlock"
                     ref={user}
                     defaultValue={profile.email}
+					disabled
                   />
                   <label htmlFor="creator" className="form-label">
                     Event Creator

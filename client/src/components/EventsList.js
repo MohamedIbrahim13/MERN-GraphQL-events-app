@@ -18,7 +18,7 @@ const EventsList = () => {
               <li className="mb-4" key={event.id}>
                 <div className="card">
                   <div className="card-header">
-                    {moment(Date(event.date).toString()).calendar()}
+                    {moment(Date(event.date).toLocaleString()).calendar()}
                   </div>
                   <div className="card-body">
                     <h5 className="card-title">{event.title}</h5>
